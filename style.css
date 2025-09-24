@@ -1,0 +1,64 @@
+body {
+  margin: 0;
+  font-family: 'Poppins', sans-serif;
+  background: linear-gradient(to right, #f7e9e3, #fff);
+  color: #333;
+  text-align: center;
+}
+
+.invitation-container {
+  padding: 40px;
+  max-width: 600px;
+  margin: auto;
+  background: #fff;
+  border-radius: 20px;
+  box-shadow: 0 5px 20px rgba(0,0,0,0.1);
+}
+
+.couple-names {
+  font-size: 2.5em;
+  color: #d35400;
+  margin-bottom: 10px;
+}
+
+.invite-text {
+  font-size: 1.2em;
+  margin: 15px 0;
+}
+
+.date, .venue {
+  font-size: 1.1em;
+  margin: 5px 0;
+}
+
+#countdown {
+  margin: 20px 0;
+  font-size: 1.3em;
+  color: #2c3e50;
+}
+
+.rsvp-form {
+  margin-top: 20px;
+  display: flex;
+  flex-direction: column;
+  gap: 10px;
+}
+
+.rsvp-form input, .rsvp-form button {
+  padding: 10px;
+  font-size: 1em;
+  border-radius: 8px;
+  border: 1px solid #ccc;
+}
+
+.rsvp-form button {
+  background: #d35400;
+  color: white;
+  border: none;
+  cursor: pointer;
+  transition: 0.3s;
+}
+
+.rsvp-form button:hover {
+  background: #e67e22;
+}
